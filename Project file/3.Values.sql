@@ -1,13 +1,13 @@
 
 -- for Division TABLE
-insert INTO Division VALUES ('Dhaka');
-insert INTO Division VALUES ('Chittagong');
-insert INTO Division VALUES ('Sylhet');
-insert INTO Division VALUES ('Barisal');
-insert INTO Division VALUES ('Rajshahi');
-insert INTO Division VALUES ('Khulna');
-insert INTO Division VALUES ('Rangpur');
-insert INTO Division VALUES ('Mymensingh');
+INSERT INTO Division VALUES ('Dhaka');
+INSERT INTO Division VALUES ('Chittagong');
+INSERT INTO Division VALUES ('Sylhet');
+INSERT INTO Division VALUES ('Barisal');
+INSERT INTO Division VALUES ('Rajshahi');
+INSERT INTO Division VALUES ('Khulna');
+INSERT INTO Division VALUES ('Rangpur');
+INSERT INTO Division VALUES ('Mymensingh');
 
 
 -- for District TABLE
@@ -157,12 +157,21 @@ INSERT INTO Services VALUES (2004, 'Raton', '016257', 'Ambulance', '556 gulshan'
 INSERT INTO Services VALUES (3001, 'Medicine Plue', '0614251', 'Pharmacy', '334 k.b road', 'Taligati', 'Khulna');
 INSERT INTO Services VALUES (3002, 'Larze Farma', '0152754', 'Pharmacy', '45/37 Amlapara', 'Narail', 'Khulna');
 INSERT INTO Services VALUES (3003, 'Popular Medicine', '9016257', 'Pharmacy', '556 gulshan','Bagerhat', 'Khulna');
+INSERT INTO Services VALUES (3004, 'Maa Midicine', '9016234257', 'Pharmacy', '5 no. banani','Kabinda', 'Dhaka');
+INSERT INTO Services VALUES (3005, 'Pharmacy', '9234016257', 'Pharmacy', '556 narinda','Gazipur', 'Dhaka');
+INSERT INTO Services VALUES (3006, 'Nhour Pharmacy', '449016257', 'Pharmacy', '77 goli','Tangail', 'Dhaka');
 
 INSERT INTO Services VALUES (4001, 'Abu Nasir', '01527544', 'Hospital', '45/37 Amlapara', 'Taligati', 'Khulna');
-INSERT INTO Services VALUES (4002, 'PG Hospital', '90162657', 'Hospital', '556 gulshan', 'Gulshan', 'Dhaka');
+INSERT INTO Services VALUES (4002, 'PG Hospital', '9016342657', 'Hospital', '556 gulshan', 'Gulshan', 'Dhaka');
+INSERT INTO Services VALUES (4003, 'Medinova', '02657', 'Hospital', '556 gulshan', 'San Andres', 'Dhaka');
+INSERT INTO Services VALUES (4004, 'Medistar', '23490162657', 'Hospital', '556 gulshan', 'Gulshan', 'Dhaka');
+INSERT INTO Services VALUES (4005, 'Care General Hospital', '862657', 'Hospital', '556 gulshan', 'Kabinda', 'Dhaka');
 
-INSERT INTO Services VALUES (5001, 'Blood Solution', '01528754', 'Blood_Bank', '45/37 Amlapara', 'Manikgonj', 'Dhaka');
-INSERT INTO Services VALUES (5002, 'Life', '90176257', 'Blood_Bank', '556 gulshan', 'Narail', 'Khulna');
+INSERT INTO Services VALUES (5001, 'Blood for life', '01528754', 'Blood_Bank', '478 no narinda', 'Kabinda', 'Dhaka');
+INSERT INTO Services VALUES (5002, 'Safe Blood', '2343354', 'Blood_Bank', '4 no Amlapara', 'San Andres', 'Dhaka');
+INSERT INTO Services VALUES (5003, 'Blood for life', '54334', 'Blood_Bank', '32 kb road', 'Manikgonj', 'Dhaka');
+INSERT INTO Services VALUES (5004, 'Blood Solution', '0156728754', 'Blood_Bank', '45/37 Amlapara', 'Manikgonj', 'Dhaka');
+INSERT INTO Services VALUES (5005, 'Life', '90176257', 'Blood_Bank', '556 gulshan', 'Narail', 'Khulna');
 
 
 
@@ -204,5 +213,8 @@ insert into Hospital_Book values (5, 4, 4002, to_date('19-Apr-22', 'dd-mon-yy'),
 -- for Table Blood_Bank_Info
 INSERT INTO Blood_Bank_Info VALUES(5001, 20, 5, 0, 7, 58, 9, 23, NULL);
 INSERT INTO Blood_Bank_Info VALUES(5002, NULL, 5, 10, 4, 8, 7, 2, 6);
+INSERT INTO Blood_Bank_Info VALUES(5003, 2, 4, 6, NULL, 3, 7, 8, 1);
+INSERT INTO Blood_Bank_Info VALUES(5004, NULL, 11, 3, 4, 1, 8, 22, 9);
+INSERT INTO Blood_Bank_Info VALUES(5005, 3, 4, 1, 2, 6, NULL, 12, 9);
 
 
