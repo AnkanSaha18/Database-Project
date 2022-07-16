@@ -1,0 +1,40 @@
+-- DECLARE
+-- BEGIN
+-- END
+-- SELECT
+-- INSERT
+-- BEFORE 
+-- REPLACE
+-- UPDATE
+-- FOR EACH ROW
+-- elsif
+-- else
+-- if 
+-- LOOP
+-- REVERSE
+-- CURSOR
+-- OPEN
+-- FETCH
+-- CLOSE
+-- %ROWTYPE
+-- %ROWCOUNT
+-- INTO
+-- IS 
+-- PROCEDURE
+-- FUNCTION
+-- SHOW ERRORS 
+-- RETURN
+-- DBMS_OUTPUT.PUT_LINE
+-- DBMS_OUTPUT.PUT
+
+
+
+DECLARE
+temp_var number;
+
+BEGIN
+temp_var:= 60;
+DBMS_OUTPUT.PUT_LINE(temp_var);
+END;
+/
+
