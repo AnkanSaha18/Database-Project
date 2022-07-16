@@ -165,7 +165,7 @@ INSERT INTO Services VALUES (4001, 'Abu Nasir', '01527544', 'Hospital', '45/37 A
 INSERT INTO Services VALUES (4002, 'PG Hospital', '9016342657', 'Hospital', '556 gulshan', 'Gulshan', 'Dhaka');
 INSERT INTO Services VALUES (4003, 'Medinova', '02657', 'Hospital', '556 gulshan', 'San Andres', 'Dhaka');
 INSERT INTO Services VALUES (4004, 'Medistar', '23490162657', 'Hospital', '556 gulshan', 'Gulshan', 'Dhaka');
-INSERT INTO Services VALUES (4005, 'Care General Hospital', '862657', 'Hospital', '556 gulshan', 'Kabinda', 'Dhaka');
+INSERT INTO Services VALUES (4005, 'Care Hospital', '862657', 'Hospital', '556 gulshan', 'Kabinda', 'Dhaka');
 
 INSERT INTO Services VALUES (5001, 'Blood for life', '01528754', 'Blood_Bank', '478 no narinda', 'Kabinda', 'Dhaka');
 INSERT INTO Services VALUES (5002, 'Safe Blood', '2343354', 'Blood_Bank', '4 no Amlapara', 'San Andres', 'Dhaka');
@@ -187,10 +187,10 @@ insert into Check_up values (5, 7, 1002, to_date('08-Jan-22 12:00 A.M.' , 'dd-mo
 
 
 -- for Table Ambulance_Book
-insert into Ambulance_Book values (1, 5, 2003, '34/44 kb road, Khulna', 'Abu Nasir');
+insert into Ambulance_Book values (1, 5, 2003, '34 road, Khulna', 'Abu Nasir');
 insert into Ambulance_Book values (2, 2, 2002, 'PG hospital', '44 road, Dhanmondi');
 insert into Ambulance_Book values (3, 7, 2001, 'Khulna Medical', '56/33 Dakbangla');
-insert into Ambulance_Book values (4, 1, 2001, '34/4 kk road, Gulashan', 'Solimolla');
+insert into Ambulance_Book values (4, 1, 2001, '5 no road, Gulashan', 'Solimolla');
 insert into Ambulance_Book values (5, 3, 2002, 'Khulna Medical', 'PG Hospital');
 
 
@@ -216,5 +216,6 @@ INSERT INTO Blood_Bank_Info VALUES(5002, NULL, 5, 10, 4, 8, 7, 2, 6);
 INSERT INTO Blood_Bank_Info VALUES(5003, 2, 4, 6, NULL, 3, 7, 8, 1);
 INSERT INTO Blood_Bank_Info VALUES(5004, NULL, 11, 3, 4, 1, 8, 22, 9);
 INSERT INTO Blood_Bank_Info VALUES(5005, 3, 4, 1, 2, 6, NULL, 12, 9);
+commit;
 
 

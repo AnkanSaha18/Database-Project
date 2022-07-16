@@ -37,7 +37,7 @@ DROP SEQUENCE medicine_seq;
 CREATE SEQUENCE medicine_seq START WITH 1;
 
 CREATE OR REPLACE TRIGGER medicine_order_inc
-BEFORE INSERT ON Ambulance_Book
+BEFORE INSERT ON Medicine_Order
 FOR EACH ROW
 BEGIN
 SELECT medicine_seq.NEXTVAL
