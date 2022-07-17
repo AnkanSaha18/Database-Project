@@ -169,7 +169,7 @@ INSERT INTO Services VALUES (4005, 'Care Hospital', '862657', 'Hospital', '556 g
 
 INSERT INTO Services VALUES (5001, 'Blood for life', '01528754', 'Blood_Bank', '478 no narinda', 'Kabinda', 'Dhaka');
 INSERT INTO Services VALUES (5002, 'Safe Blood', '2343354', 'Blood_Bank', '4 no Amlapara', 'San Andres', 'Dhaka');
-INSERT INTO Services VALUES (5003, 'Blood for life', '54334', 'Blood_Bank', '32 kb road', 'Manikgonj', 'Dhaka');
+INSERT INTO Services VALUES (5003, 'Blood Need', '54334', 'Blood_Bank', '32 kb road', 'Manikgonj', 'Dhaka');
 INSERT INTO Services VALUES (5004, 'Blood Solution', '0156728754', 'Blood_Bank', '45/37 Amlapara', 'Manikgonj', 'Dhaka');
 INSERT INTO Services VALUES (5005, 'Life', '90176257', 'Blood_Bank', '556 gulshan', 'Narail', 'Khulna');
 

@@ -1,5 +1,5 @@
+SET SERVEROUTPUT ON
 DECLARE
-
 BEGIN
     show_division('Doctor');
 END;
